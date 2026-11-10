@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Injamamul Haque — Software Engineer (Frontend) Resume</title>
+    <meta
+      name="description"
+      content="Resume of Injamamul Haque — Frontend-focused Software Engineer with 6+ years of experience in React, Next.js, and TypeScript."
+    />
+    <!-- Tailwind CSS v4 Play CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-resume-navy: #142a46;
+        --color-resume-section: #19375f;
+        --color-resume-link: #2b6cb0;
+        --font-sans: "Liberation Sans", "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+
+      @media print {
+        @page {
+          size: A4;
+          margin: 12.7mm;
+        }
+        body {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          background: #ffffff !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-100 text-black font-sans antialiased selection:bg-blue-100 selection:text-resume-navy print:bg-white">
+    <!-- Top Floating Action Bar (Hidden when printing) -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-xs print:hidden">
+      <div class="max-w-[820px] mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
+        <div class="flex items-center gap-2.5">
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-resume-navy text-white font-bold text-sm">
+            IH
+          </span>
+          <div>
+            <p class="text-sm font-semibold text-slate-900 leading-tight">Injamamul Haque</p>
+            <p class="text-xs text-slate-500">Online Resume &bull; Print-ready A4 PDF</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2.5">
+          <button
+            id="shareBtn"
+            type="button"
+            onclick="copyResumeLink()"
+            class="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs sm:text-sm font-medium text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 active:bg-slate-100 transition cursor-pointer shadow-2xs"
+          >
+            <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+            </svg>
+            <span id="shareBtnText">Copy Share Link</span>
+          </button>
+
+          <button
+            type="button"
+            onclick="window.print()"
+            class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs sm:text-sm font-medium text-white bg-resume-navy rounded-lg hover:bg-resume-section active:scale-[0.99] transition cursor-pointer shadow-xs"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2m-12 0h12v4H6v-4z" />
+            </svg>
+            <span>Print / Save PDF</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Resume Container -->
+    <main class="max-w-[820px] mx-auto my-6 sm:my-8 bg-white shadow-lg rounded-lg border border-slate-200/80 px-6 py-8 sm:px-12 sm:py-11 print:max-w-none print:m-0 print:p-0 print:shadow-none print:border-none print:rounded-none">
+      <!-- Header / Contact Info -->
+      <header class="text-center mb-5">
+        <h1 class="text-[26px] sm:text-[28px] font-bold tracking-wide text-resume-navy uppercase leading-tight">
+          INJAMAMUL HAQUE
+        </h1>
+        <p class="text-[15px] sm:text-[16px] font-bold text-black mt-1">
+          Software Engineer (Frontend) | React &middot; Next.js &middot; TypeScript
+        </p>
+        <p class="text-[13px] sm:text-[13.5px] text-black mt-1">
+          Dhaka, Bangladesh
+          <span class="mx-1">|</span>
+          <a href="tel:+8801685970744" class="hover:underline">+880 1685-970744</a>
+          <span class="mx-1">|</span>
+          <a href="mailto:injam.cse@gmail.com" class="hover:underline">injam.cse@gmail.com</a>
+        </p>
+        <p class="text-[13px] sm:text-[13.5px] mt-1">
+          <a
+            href="https://linkedin.com/in/meinjam"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-resume-link underline hover:text-resume-navy"
+          >LinkedIn</a>
+          <span class="mx-1.5 text-black">|</span>
+          <a
+            href="https://github.com/meinjam"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-resume-link underline hover:text-resume-navy"
+          >GitHub</a>
+          <span class="mx-1.5 text-black">|</span>
+          <a
+            href="https://injam.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-resume-link underline hover:text-resume-navy"
+          >Portfolio</a>
+        </p>
+      </header>
+
+      <!-- Professional Summary -->
+      <section class="mb-4">
+        <h2 class="text-[15px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-2 tracking-wide">
+          PROFESSIONAL SUMMARY
+        </h2>
+        <p class="text-[13.5px] leading-[1.45] text-black">
+          Frontend-focused Software Engineer with 6+ years of experience building enterprise ERP and business web
+          applications using React, Next.js, and TypeScript. Owns features end-to-end, from requirement analysis and technical
+          planning to delivery and production support. Experienced in designing typed API layers, reusable component systems,
+          and caching strategies that keep large applications fast and maintainable. Comfortable contributing to backend work
+          with Node.js and Laravel.
+        </p>
+      </section>
+
+      <!-- Technical Skills -->
+      <section class="mb-4">
+        <h2 class="text-[15px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-2 tracking-wide">
+          TECHNICAL SKILLS
+        </h2>
+        <div class="text-[13.5px] leading-[1.55] space-y-0.5 text-black">
+          <p><span class="font-bold">Languages:</span> JavaScript, TypeScript, PHP</p>
+          <p><span class="font-bold">Frontend:</span> React, Next.js (App Router, Server Actions), React Native, HTML5, CSS3</p>
+          <p><span class="font-bold">State &amp; Data:</span> TanStack Query, Redux Toolkit, RTK Query, Axios, Zustand, React Hook Form, Zod</p>
+          <p><span class="font-bold">UI &amp; Styling:</span> Tailwind CSS, Sass, shadcn/ui, Bootstrap</p>
+          <p><span class="font-bold">Backend:</span> Node.js, Express.js, Laravel</p>
+          <p><span class="font-bold">Database:</span> MySQL, MongoDB, Firebase</p>
+          <p><span class="font-bold">Testing:</span> Jest, React Testing Library, Playwright</p>
+          <p><span class="font-bold">DevOps &amp; Tools:</span> Git, GitHub, Docker, Linux, Vercel, Sentry</p>
+          <p><span class="font-bold">AI:</span> LLM APIs, RAG, MCP, Prompt Engineering, Claude Code, Cursor, GitHub Copilot</p>
+        </div>
+      </section>
+
+      <!-- Professional Experience -->
+      <section class="mb-4">
+        <h2 class="text-[15px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-2 tracking-wide">
+          PROFESSIONAL EXPERIENCE
+        </h2>
+
+        <!-- Riseup Labs -->
+        <div class="mb-3.5 break-inside-avoid">
+          <h3 class="text-[14px] text-black mb-1">
+            <span class="font-bold">Software Engineer | Riseup Labs</span>
+            <span class="italic"> &mdash; October 2022 &ndash; Present</span>
+          </h3>
+          <ul class="list-disc pl-5 text-[13.5px] leading-[1.45] space-y-0.5 text-black">
+            <li>Develop and maintain enterprise web applications and ERP modules using React.js, Next.js, and TypeScript.</li>
+            <li>Collaborate in requirement analysis, technical planning, development, testing, and implementation of application features.</li>
+            <li>Take ownership of REST API integration, including API structure, request/response handling, data fetching, caching, and error management.</li>
+            <li>Build reusable components and maintainable application architecture to support scalable business applications.</li>
+            <li>Implement state management and server-side data handling using Redux Toolkit, TanStack Query, and Next.js Server Actions.</li>
+            <li>Work with backend services and contribute to backend development using Node.js, Express.js, and Laravel where required.</li>
+            <li>Optimize frontend performance through efficient rendering, caching strategies, code organization, and debugging.</li>
+            <li>Collaborate with backend developers, designers, team leads, and QA engineers to deliver features and resolve production issues.</li>
+            <li>Participate in code maintenance, bug fixing, and continuous improvement throughout the software development lifecycle.</li>
+          </ul>
+        </div>
+
+        <!-- AmarLab -->
+        <div class="mb-3.5 break-inside-avoid">
+          <h3 class="text-[14px] text-black mb-1">
+            <span class="font-bold">Software Engineer | AmarLab</span>
+            <span class="italic"> &mdash; May 2021 &ndash; August 2022</span>
+          </h3>
+          <ul class="list-disc pl-5 text-[13.5px] leading-[1.45] space-y-0.5 text-black">
+            <li>Developed frontend features for an e-commerce-style healthcare platform that enabled customers to browse and order diagnostic tests.</li>
+            <li>Built administrative dashboard interfaces supporting business and operational workflows.</li>
+            <li>Contributed to React Native mobile application development and collaborated on cross-platform features.</li>
+            <li>Worked with the development team on frontend implementation, API integration, and application maintenance.</li>
+          </ul>
+          <p class="text-[13.5px] leading-[1.45] mt-1 text-black">
+            <span class="font-bold">Technologies:</span> React.js, React Native, Django
+          </p>
+        </div>
+
+        <!-- OnCallMedico -->
+        <div class="break-inside-avoid">
+          <h3 class="text-[14px] text-black mb-1">
+            <span class="font-bold">Frontend Engineer | OnCallMedico</span>
+            <span class="italic"> &mdash; October 2020 &ndash; April 2021</span>
+          </h3>
+          <ul class="list-disc pl-5 text-[13.5px] leading-[1.45] space-y-0.5 text-black">
+            <li>Developed multiple frontend website templates to support doctors&rsquo; personal branding and online presence.</li>
+            <li>Built a prescription application using React.js.</li>
+            <li>Implemented responsive user interfaces, interactive features, and updates to existing templates.</li>
+          </ul>
+          <p class="text-[13.5px] leading-[1.45] mt-1 text-black">
+            <span class="font-bold">Technologies:</span> HTML, CSS, React.js, Django
+          </p>
+        </div>
+      </section>
+
+      <!-- Selected Projects -->
+      <section class="mb-4">
+        <h2 class="text-[15px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-2 tracking-wide">
+          SELECTED PROJECTS
+        </h2>
+
+        <!-- AI-Integrated ERP Platform -->
+        <div class="mb-3 break-inside-avoid">
+          <h3 class="text-[13.5px] font-bold text-black">
+            AI-Integrated ERP Platform &mdash; AB Global
+          </h3>
+          <p class="text-[13.5px] mb-1">
+            Website:
+            <a
+              href="https://abn-erp-dev-frontend.rultest3.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-resume-link underline hover:text-resume-navy break-all"
+            >https://abn-erp-dev-frontend.rultest3.com/</a>
+          </p>
+          <ul class="list-disc pl-5 text-[13.5px] leading-[1.45] space-y-0.5 text-black">
+            <li>Focused on frontend implementation, reusable components, and maintainable application architecture.</li>
+            <li>Contributed to enterprise ERP application development and business workflow implementation.</li>
+            <li>Developed reusable frontend modules and maintainable application architecture.</li>
+            <li>Worked on API integration and application data management.</li>
+            <li>Collaborated in technical planning, development, QA, and bug fixing.</li>
+          </ul>
+        </div>
+
+        <!-- eCook -->
+        <div class="mb-3 break-inside-avoid">
+          <h3 class="text-[13.5px] font-bold text-black">
+            eCook &mdash; ATEC Global
+          </h3>
+          <p class="text-[13.5px] mb-1">
+            Website:
+            <a
+              href="https://www.atecglobal.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-resume-link underline hover:text-resume-navy break-all"
+            >https://www.atecglobal.io/</a>
+          </p>
+          <ul class="list-disc pl-5 text-[13.5px] leading-[1.45] space-y-0.5 text-black">
+            <li>Contributed to a medium-to-large-scale administrative application.</li>
+            <li>Focused on frontend implementation, reusable components, and maintainable architecture.</li>
+            <li>Worked on API integration and data-driven application features.</li>
+          </ul>
+        </div>
+
+        <!-- Oxford Forex -->
+        <div class="mb-3 break-inside-avoid">
+          <h3 class="text-[13.5px] font-bold text-black">
+            Oxford Forex &mdash; Currency Exchange Platform
+          </h3>
+          <p class="text-[13.5px] mb-1">
+            Website:
+            <a
+              href="https://oxfordforex.com.au/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-resume-link underline hover:text-resume-navy break-all"
+            >https://oxfordforex.com.au/</a>
+          </p>
+          <ul class="list-disc pl-5 text-[13.5px] leading-[1.45] space-y-0.5 text-black">
+            <li>Contributed to the development of a web-based currency exchange platform.</li>
+            <li>Worked on frontend implementation and application functionality.</li>
+          </ul>
+        </div>
+
+        <!-- AmarLab -->
+        <div class="break-inside-avoid">
+          <h3 class="text-[13.5px] font-bold text-black">
+            AmarLab &mdash; Healthcare E-commerce
+          </h3>
+          <p class="text-[13.5px] mb-1">
+            Website:
+            <a
+              href="https://amarlab.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-resume-link underline hover:text-resume-navy break-all"
+            >https://amarlab.com/</a>
+          </p>
+          <ul class="list-disc pl-5 text-[13.5px] leading-[1.45] space-y-0.5 text-black">
+            <li>Developed frontend features and administrative dashboard interfaces.</li>
+            <li>Contributed to React Native mobile application development.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="break-inside-avoid">
+        <h2 class="text-[15px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-2 tracking-wide">
+          EDUCATION
+        </h2>
+        <div class="text-[13.5px] leading-[1.55] space-y-0.5 text-black">
+          <p>
+            <span class="font-bold">BSc in Computer Science and Engineering</span> | North Western University, Khulna | 2015&ndash;2019
+          </p>
+          <p>
+            <span class="font-bold">HSC</span> | Govt. B.L. College, Khulna | 2011&ndash;2013
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      async function copyResumeLink() {
+        const btnText = document.getElementById("shareBtnText");
+        try {
+          if (navigator.share && window.location.protocol.startsWith("http")) {
+            await navigator.share({
+              title: document.title,
+              url: window.location.href,
+            });
+            return;
+          }
+          await navigator.clipboard.writeText(window.location.href);
+          btnText.textContent = "Link Copied!";
+          setTimeout(() => {
+            btnText.textContent = "Copy Share Link";
+          }, 2000);
+        } catch (err) {
+          btnText.textContent = "Copy URL from bar";
+          setTimeout(() => {
+            btnText.textContent = "Copy Share Link";
+          }, 2000);
+        }
+      }
+    </script>
+  </body>
+</html>
+
