@@ -8,6 +8,13 @@
       name="description"
       content="Resume of Injamamul Haque — Senior Frontend Software Engineer with 6+ years of experience building enterprise ERP, FinTech, and Healthcare applications using React, Next.js, and TypeScript."
     />
+    <!-- Google Fonts: Inter (Industry-standard modern tech resume font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..600&display=swap"
+      rel="stylesheet"
+    />
     <!-- Tailwind CSS v4 Play CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
@@ -15,7 +22,7 @@
         --color-resume-navy: #142a46;
         --color-resume-section: #19375f;
         --color-resume-link: #1d4ed8;
-        --font-sans: "Liberation Sans", "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        --font-sans: "Inter", "Calibri", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       }
 
       @media print {
@@ -78,20 +85,20 @@
     <main class="max-w-[820px] mx-auto my-6 bg-white shadow-lg rounded-lg border border-slate-200/80 px-6 py-7 sm:px-10 sm:py-8 print:max-w-none print:m-0 print:p-0 print:shadow-none print:border-none print:rounded-none">
       <!-- Header / Contact Info -->
       <header class="text-center mb-3 print:mb-2.5">
-        <h1 class="text-[24px] sm:text-[26px] print:text-[22px] font-bold tracking-wide text-resume-navy uppercase leading-tight">
+        <h1 class="text-[24px] sm:text-[26px] print:text-[21px] font-bold tracking-tight text-resume-navy uppercase leading-tight">
           INJAMAMUL HAQUE
         </h1>
-        <p class="text-[14.5px] sm:text-[15px] print:text-[13px] font-bold text-black mt-0.5">
+        <p class="text-[14px] sm:text-[14.5px] print:text-[12.5px] font-semibold text-black mt-0.5">
           Senior Software Engineer (Frontend) | React &middot; Next.js &middot; TypeScript
         </p>
-        <p class="text-[12.5px] sm:text-[13px] print:text-[11.5px] text-black mt-0.5">
+        <p class="text-[12.5px] print:text-[11.2px] text-black mt-0.5">
           Dhaka, Bangladesh
           <span class="mx-1">|</span>
           <a href="tel:+8801685970744" class="hover:underline">+880 1685-970744</a>
           <span class="mx-1">|</span>
           <a href="mailto:injam.cse@gmail.com" class="hover:underline">injam.cse@gmail.com</a>
         </p>
-        <p class="text-[12.5px] sm:text-[13px] print:text-[11.5px] mt-0.5">
+        <p class="text-[12.5px] print:text-[11.2px] mt-0.5">
           <a
             href="https://linkedin.com/in/meinjam"
             target="_blank"
@@ -117,61 +124,59 @@
 
       <!-- Professional Summary -->
       <section class="mb-3 print:mb-2">
-        <h2 class="text-[13.5px] print:text-[12px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wide">
+        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
           PROFESSIONAL SUMMARY
         </h2>
-        <p class="text-[13px] print:text-[11.5px] leading-[1.4] print:leading-[1.35] text-black">
-          Frontend-focused Software Engineer with <strong>6+ years of experience</strong> architecting and delivering enterprise ERP, FinTech, and Healthcare web applications using <strong>React, Next.js (App Router), and TypeScript</strong>. Proven track record of owning complex features end-to-end—engineering reusable component systems, strictly typed API layers, and intelligent caching strategies that improve Core Web Vitals and developer velocity. Experienced in AI-powered workflows (LLM APIs, RAG) and full-stack collaboration with <strong>Node.js and Laravel</strong>.
+        <p class="text-[12.8px] print:text-[11.2px] leading-[1.42] print:leading-[1.35] text-black">
+          Frontend-focused Software Engineer with <strong>6+ years of experience</strong> architecting and delivering enterprise ERP, FinTech, and Healthcare web applications using <strong>React, Next.js (App Router), and TypeScript</strong>. Proven track record of owning complex features end-to-end—engineering reusable component systems, strictly typed API layers, and caching strategies that improve Core Web Vitals and team velocity. Experienced in AI-powered workflows (LLM APIs, RAG) and full-stack collaboration with <strong>Node.js and Laravel</strong>.
         </p>
       </section>
 
-      <!-- Technical Skills -->
+      <!-- Technical Skills (Single Column) -->
       <section class="mb-3 print:mb-2">
-        <h2 class="text-[13.5px] print:text-[12px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wide">
+        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
           TECHNICAL SKILLS
         </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 print:grid-cols-2 gap-x-6 gap-y-0.5 text-[12.5px] print:text-[11.2px] leading-[1.4] print:leading-[1.32] text-black">
+        <div class="text-[12.6px] print:text-[11.1px] leading-[1.42] print:leading-[1.34] space-y-0.5 text-black">
           <p><span class="font-bold">Languages:</span> TypeScript, JavaScript (ES6+), PHP, HTML5, CSS3</p>
           <p><span class="font-bold">Frontend:</span> React.js, Next.js (App Router, Server Actions, SSR), React Native</p>
-          <p><span class="font-bold">State &amp; Data:</span> TanStack Query, Redux Toolkit, RTK Query, Zustand, Axios</p>
-          <p><span class="font-bold">Forms &amp; UI:</span> React Hook Form, Zod, Tailwind CSS, shadcn/ui, Sass, Bootstrap</p>
-          <p><span class="font-bold">Backend &amp; DB:</span> Node.js, Express.js, Laravel, MySQL, MongoDB, Firebase</p>
-          <p><span class="font-bold">Testing &amp; DevOps:</span> Jest, React Testing Library, Playwright, Git, Docker, Vercel, Sentry</p>
-          <p class="sm:col-span-2 print:col-span-2">
-            <span class="font-bold">AI &amp; Modern Workflows:</span> LLM APIs, RAG Integration, Model Context Protocol (MCP), Prompt Engineering, Claude Code, Cursor, GitHub Copilot
-          </p>
+          <p><span class="font-bold">State, Data &amp; Forms:</span> TanStack Query, Redux Toolkit, RTK Query, Zustand, Axios, React Hook Form, Zod</p>
+          <p><span class="font-bold">UI &amp; Styling:</span> Tailwind CSS, shadcn/ui, Sass, Bootstrap</p>
+          <p><span class="font-bold">Backend &amp; Database:</span> Node.js, Express.js, Laravel, MySQL, MongoDB, Firebase</p>
+          <p><span class="font-bold">Testing, DevOps &amp; Tools:</span> Jest, React Testing Library, Playwright, Git, GitHub, Docker, Linux, Vercel, Sentry</p>
+          <p><span class="font-bold">AI &amp; Workflows:</span> LLM APIs, RAG, MCP, Prompt Engineering, Claude Code, Cursor, GitHub Copilot</p>
         </div>
       </section>
 
       <!-- Professional Experience -->
       <section class="mb-3 print:mb-2">
-        <h2 class="text-[13.5px] print:text-[12px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wide">
+        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
           PROFESSIONAL EXPERIENCE
         </h2>
 
         <!-- Riseup Labs -->
         <div class="mb-2.5 print:mb-2 break-inside-avoid">
           <div class="flex flex-wrap items-baseline justify-between gap-2 mb-0.5">
-            <h3 class="text-[13.5px] print:text-[12px] font-bold text-black">
+            <h3 class="text-[13.2px] print:text-[11.6px] font-bold text-black">
               Software Engineer | Riseup Labs
             </h3>
-            <span class="text-[12.5px] print:text-[11.2px] italic text-black">October 2022 &ndash; Present | Dhaka, Bangladesh</span>
+            <span class="text-[12.2px] print:text-[11px] italic text-black">October 2022 &ndash; Present | Dhaka, Bangladesh</span>
           </div>
-          <ul class="list-disc pl-4.5 text-[12.8px] print:text-[11.3px] leading-[1.4] print:leading-[1.33] space-y-0.5 text-black">
+          <ul class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black">
             <li>
-              <strong>Frontend Architecture &amp; Component Systems:</strong> Architected and maintained multi-tenant enterprise ERP and administrative web applications using <strong>React.js, Next.js (App Router, Server Actions), and TypeScript</strong>, building <strong>30+ reusable UI components</strong> with <strong>Tailwind CSS and shadcn/ui</strong> that standardized design and accelerated feature delivery across modules.
+              <strong>Frontend Architecture &amp; Component Systems:</strong> Architected and maintained multi-tenant enterprise ERP and admin web applications using <strong>React.js, Next.js (App Router, Server Actions), and TypeScript</strong>, building <strong>30+ reusable UI components</strong> with <strong>Tailwind CSS and shadcn/ui</strong> that standardized design and accelerated feature delivery.
             </li>
             <li>
               <strong>Typed State &amp; Data Layer:</strong> Engineered end-to-end REST API integration and caching workflows using <strong>TanStack Query, Redux Toolkit (RTK Query), Axios, React Hook Form, and Zod</strong>, cutting redundant network requests and eliminating runtime schema mismatches.
             </li>
             <li>
-              <strong>Performance Optimization:</strong> Improved initial page load speed and <strong>Core Web Vitals by ~35%</strong> on data-intensive ERP dashboards through route-level code splitting, memoized rendering, virtualized tables, and server-side data fetching.
+              <strong>Performance Optimization:</strong> Improved initial page load speed and <strong>Core Web Vitals by ~35%</strong> on data-heavy ERP dashboards via route-level code splitting, memoized rendering, virtualized tables, and server-side data fetching.
             </li>
             <li>
               <strong>AI &amp; Full-Stack Collaboration:</strong> Integrated AI-assisted ERP workflows (<strong>LLM APIs, RAG</strong>) and contributed to backend services and API endpoints using <strong>Node.js, Express.js, and Laravel</strong>.
             </li>
             <li>
-              <strong>Quality Assurance &amp; Engineering Leadership:</strong> Strengthened release reliability with automated unit/E2E testing (<strong>Jest, React Testing Library, Playwright</strong>) and production error tracking (<strong>Sentry</strong>), while leading requirement analysis, code reviews, and sprint planning with QA, UI/UX, and backend teams.
+              <strong>Quality Assurance &amp; Engineering Leadership:</strong> Strengthened release reliability with automated testing (<strong>Jest, React Testing Library, Playwright</strong>) and error monitoring (<strong>Sentry</strong>), while driving requirement analysis, code reviews, and sprint planning with cross-functional teams.
             </li>
           </ul>
         </div>
@@ -179,26 +184,26 @@
         <!-- AmarLab -->
         <div class="mb-2.5 print:mb-2 break-inside-avoid">
           <div class="flex flex-wrap items-baseline justify-between gap-2 mb-0.5">
-            <h3 class="text-[13.5px] print:text-[12px] font-bold text-black">
+            <h3 class="text-[13.2px] print:text-[11.6px] font-bold text-black">
               Software Engineer | AmarLab
               <a
                 href="https://amarlab.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="font-normal text-[12px] print:text-[11px] text-resume-link underline ml-1"
+                class="font-normal text-[12px] print:text-[10.8px] text-resume-link underline ml-1"
               >(amarlab.com)</a>
             </h3>
-            <span class="text-[12.5px] print:text-[11.2px] italic text-black">May 2021 &ndash; August 2022 | Dhaka, Bangladesh</span>
+            <span class="text-[12.2px] print:text-[11px] italic text-black">May 2021 &ndash; August 2022 | Dhaka, Bangladesh</span>
           </div>
-          <ul class="list-disc pl-4.5 text-[12.8px] print:text-[11.3px] leading-[1.4] print:leading-[1.33] space-y-0.5 text-black">
+          <ul class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black">
             <li>
-              Developed customer-facing healthcare e-commerce features using <strong>React.js</strong>, enabling thousands of patients to search diagnostic lab tests, compare packages, and schedule home sample collections seamlessly.
+              Developed customer-facing healthcare e-commerce features using <strong>React.js</strong>, enabling thousands of patients to search diagnostic lab tests, compare packages, and book home sample collections online.
             </li>
             <li>
-              Built internal operations and administrative dashboard interfaces to manage lab test orders, partner diagnostics, dispatch workflows, and real-time status reporting.
+              Built internal operations and administrative dashboard interfaces to manage lab test orders, partner diagnostics, dispatch workflows, and real-time reporting.
             </li>
             <li>
-              Delivered cross-platform mobile features using <strong>React Native</strong> and integrated RESTful APIs powered by <strong>Django</strong>.
+              Delivered cross-platform mobile application features in <strong>React Native</strong> and integrated RESTful APIs powered by <strong>Django</strong>.
             </li>
           </ul>
         </div>
@@ -206,29 +211,26 @@
         <!-- OnCallMedico -->
         <div class="break-inside-avoid">
           <div class="flex flex-wrap items-baseline justify-between gap-2 mb-0.5">
-            <h3 class="text-[13.5px] print:text-[12px] font-bold text-black">
+            <h3 class="text-[13.2px] print:text-[11.6px] font-bold text-black">
               Frontend Engineer | OnCallMedico
             </h3>
-            <span class="text-[12.5px] print:text-[11.2px] italic text-black">October 2020 &ndash; April 2021 | Dhaka, Bangladesh</span>
+            <span class="text-[12.2px] print:text-[11px] italic text-black">October 2020 &ndash; April 2021 | Dhaka, Bangladesh</span>
           </div>
-          <ul class="list-disc pl-4.5 text-[12.8px] print:text-[11.3px] leading-[1.4] print:leading-[1.33] space-y-0.5 text-black">
+          <ul class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black">
             <li>
-              Built an interactive digital prescription generation web application using <strong>React.js</strong>, streamlining patient consultation and medication templating for doctors.
-            </li>
-            <li>
-              Designed and implemented multiple responsive personal-branding web templates for healthcare professionals using <strong>HTML5, CSS3, React.js, and Django</strong>.
+              Built an interactive digital prescription web application using <strong>React.js</strong> and implemented responsive personal-branding web templates for doctors using <strong>HTML5, CSS3, and Django</strong>.
             </li>
           </ul>
         </div>
       </section>
 
-      <!-- Selected Projects -->
+      <!-- Key Projects -->
       <section class="mb-3 print:mb-2">
-        <h2 class="text-[13.5px] print:text-[12px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wide">
+        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
           KEY PROJECTS
         </h2>
 
-        <div class="space-y-2 print:space-y-1.5 text-[12.8px] print:text-[11.3px] leading-[1.4] print:leading-[1.33] text-black">
+        <div class="space-y-2 print:space-y-1.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] text-black">
           <!-- AI-Integrated ERP Platform -->
           <div class="break-inside-avoid">
             <div class="flex flex-wrap items-baseline justify-between gap-2">
@@ -239,10 +241,7 @@
             </div>
             <ul class="list-disc pl-4.5 space-y-0.5 mt-0.5">
               <li>
-                Engineered core ERP workflow modules, role-based access views, and reusable data-grid/form components with strict <strong>Zod + React Hook Form</strong> validation for complex business operations.
-              </li>
-              <li>
-                Integrated AI-assisted querying and automated workflow features with optimistic UI updates and centralized <strong>TanStack Query</strong> caching.
+                Engineered core ERP workflow modules, role-based access views, and reusable data-grid/form components with strict <strong>Zod + React Hook Form</strong> validation and AI-assisted querying.
               </li>
             </ul>
           </div>
@@ -258,12 +257,12 @@
                 href="https://www.atecglobal.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-[12px] print:text-[11px] text-resume-link underline"
+                class="text-[12px] print:text-[10.8px] text-resume-link underline"
               >atecglobal.io</a>
             </div>
             <ul class="list-disc pl-4.5 space-y-0.5 mt-0.5">
               <li>
-                Built data-driven administrative dashboards, analytics views, and device/customer management workflows for a global clean-cooking platform, ensuring high maintainability and responsive performance across large datasets.
+                Built data-driven administrative dashboards, analytics views, and IoT device/customer management workflows for a global clean-cooking platform across large datasets.
               </li>
             </ul>
           </div>
@@ -279,7 +278,7 @@
                 href="https://oxfordforex.com.au/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-[12px] print:text-[11px] text-resume-link underline"
+                class="text-[12px] print:text-[10.8px] text-resume-link underline"
               >oxfordforex.com.au</a>
             </div>
             <ul class="list-disc pl-4.5 space-y-0.5 mt-0.5">
@@ -293,17 +292,13 @@
 
       <!-- Education -->
       <section class="break-inside-avoid">
-        <h2 class="text-[13.5px] print:text-[12px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wide">
+        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
           EDUCATION
         </h2>
-        <div class="text-[12.8px] print:text-[11.3px] leading-[1.45] print:leading-[1.35] space-y-0.5 text-black">
+        <div class="text-[12.6px] print:text-[11.1px] leading-[1.42] print:leading-[1.34] text-black">
           <div class="flex flex-wrap justify-between gap-2">
             <p><span class="font-bold">BSc in Computer Science and Engineering</span> | North Western University, Khulna</p>
             <span class="italic">2015 &ndash; 2019</span>
-          </div>
-          <div class="flex flex-wrap justify-between gap-2">
-            <p><span class="font-bold">Higher Secondary Certificate (HSC)</span> | Govt. B.L. College, Khulna</p>
-            <span class="italic">2011 &ndash; 2013</span>
           </div>
         </div>
       </section>
