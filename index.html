@@ -22,7 +22,7 @@
         --color-resume-navy: #142a46;
         --color-resume-section: #19375f;
         --color-resume-link: #1d4ed8;
-        --font-sans: "Inter", "Calibri", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        --font-sans: 'Inter', 'Calibri', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
       }
 
       @media print {
@@ -40,12 +40,16 @@
       }
     </style>
   </head>
-  <body class="bg-slate-100 text-slate-950 font-sans antialiased selection:bg-blue-100 selection:text-resume-navy print:bg-white">
+  <body
+    class="bg-slate-100 text-slate-950 font-sans antialiased selection:bg-blue-100 selection:text-resume-navy print:bg-white"
+  >
     <!-- Top Floating Action Bar (Hidden when printing) -->
     <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-xs print:hidden">
       <div class="max-w-[820px] mx-auto px-4 sm:px-6 py-2.5 flex flex-wrap items-center justify-between gap-3">
         <div class="flex items-center gap-3">
-          <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-resume-navy text-white font-bold text-sm">
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-resume-navy text-white font-bold text-sm"
+          >
             IH
           </span>
           <div>
@@ -70,9 +74,13 @@
             class="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs sm:text-sm font-medium text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 active:bg-slate-100 transition cursor-pointer shadow-2xs"
           >
             <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+              />
             </svg>
-            <span id="shareBtnText">Copy Share Link</span>
+            <span id="shareBtnText">Copy Link</span>
           </button>
 
           <button
@@ -81,19 +89,27 @@
             class="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs sm:text-sm font-medium text-white bg-resume-navy rounded-lg hover:bg-resume-section active:scale-[0.99] transition cursor-pointer shadow-xs"
           >
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2m-12 0h12v4H6v-4z" />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2m-12 0h12v4H6v-4z"
+              />
             </svg>
-            <span>Print / Save 1-Page PDF</span>
+            <span>Print / Save PDF</span>
           </button>
         </div>
       </div>
     </header>
 
     <!-- Main A4 Resume Sheet -->
-    <main class="max-w-[820px] mx-auto my-6 bg-white shadow-lg rounded-lg border border-slate-200/80 px-6 py-7 sm:px-10 sm:py-8 print:max-w-none print:m-0 print:p-0 print:shadow-none print:border-none print:rounded-none">
+    <main
+      class="max-w-[820px] mx-auto my-6 bg-white shadow-lg rounded-lg border border-slate-200/80 px-6 py-7 sm:px-10 sm:py-8 print:max-w-none print:m-0 print:p-0 print:shadow-none print:border-none print:rounded-none"
+    >
       <!-- Header / Contact Info -->
       <header class="text-center mb-3 print:mb-2.5">
-        <h1 class="text-[24px] sm:text-[26px] print:text-[21px] font-bold tracking-tight text-resume-navy uppercase leading-tight">
+        <h1
+          class="text-[24px] sm:text-[26px] print:text-[21px] font-bold tracking-tight text-resume-navy uppercase leading-tight"
+        >
           INJAMAMUL HAQUE
         </h1>
         <p class="text-[14px] sm:text-[14.5px] print:text-[12.5px] font-semibold text-black mt-0.5">
@@ -112,79 +128,124 @@
             target="_blank"
             rel="noopener noreferrer"
             class="text-resume-link underline hover:text-resume-navy"
-          >linkedin.com/in/meinjam</a>
+            >linkedin.com/in/meinjam</a
+          >
           <span class="mx-1.5 text-black">|</span>
           <a
             href="https://github.com/meinjam"
             target="_blank"
             rel="noopener noreferrer"
             class="text-resume-link underline hover:text-resume-navy"
-          >github.com/meinjam</a>
+            >github.com/meinjam</a
+          >
           <span class="mx-1.5 text-black">|</span>
           <a
             href="https://injam.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             class="text-resume-link underline hover:text-resume-navy"
-          >injam.netlify.app</a>
+            >injam.netlify.app</a
+          >
         </p>
       </header>
 
       <!-- Professional Summary -->
       <section class="mb-3 print:mb-2">
-        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
+        <h2
+          class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider"
+        >
           PROFESSIONAL SUMMARY
         </h2>
         <p class="text-[12.8px] print:text-[11.2px] leading-[1.42] print:leading-[1.35] text-black">
-          Frontend-focused Software Engineer with <strong>6+ years of experience</strong> architecting and delivering enterprise ERP, FinTech, and Healthcare web applications using <strong>React, Next.js (App Router), and TypeScript</strong>. Proven track record of owning complex features end-to-end—engineering reusable component systems, strictly typed API layers, and caching strategies that improve Core Web Vitals and team velocity. Experienced in AI-powered workflows (LLM APIs, RAG) and full-stack collaboration with <strong>Node.js and Laravel</strong>.
+          Frontend-focused Software Engineer with <strong>6+ years of experience</strong> architecting and delivering
+          enterprise ERP, FinTech, and Healthcare web applications using
+          <strong>React, Next.js (App Router), and TypeScript</strong>. Proven track record of owning complex features
+          end-to-end—engineering reusable component systems, strictly typed API layers, and caching strategies that
+          improve Core Web Vitals and team velocity. Experienced in AI-powered workflows (LLM APIs, RAG) and full-stack
+          collaboration with <strong>Node.js and Laravel</strong>.
         </p>
       </section>
 
       <!-- Technical Skills (Single Column) -->
       <section class="mb-3 print:mb-2">
-        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
+        <h2
+          class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider"
+        >
           TECHNICAL SKILLS
         </h2>
         <div class="text-[12.6px] print:text-[11.1px] leading-[1.42] print:leading-[1.34] space-y-0.5 text-black">
           <p><span class="font-bold">Languages:</span> TypeScript, JavaScript (ES6+), PHP, HTML5, CSS3</p>
-          <p><span class="font-bold">Frontend:</span> React.js, Next.js (App Router, Server Actions, SSR), React Native</p>
-          <p><span class="font-bold">State, Data &amp; Forms:</span> TanStack Query, Redux Toolkit, RTK Query, Zustand, Axios, React Hook Form, Zod</p>
+          <p>
+            <span class="font-bold">Frontend:</span> React.js, Next.js (App Router, Server Actions, SSR), React Native
+          </p>
+          <p>
+            <span class="font-bold">State, Data &amp; Forms:</span> TanStack Query, Redux Toolkit, RTK Query, Zustand,
+            Axios, React Hook Form, Zod
+          </p>
           <p><span class="font-bold">UI &amp; Styling:</span> Tailwind CSS, shadcn/ui, Sass, Bootstrap</p>
-          <p><span class="font-bold">Backend &amp; Database:</span> Node.js, Express.js, Laravel, MySQL, MongoDB, Firebase</p>
-          <p><span class="font-bold">Testing, DevOps &amp; Tools:</span> Jest, React Testing Library, Playwright, Git, GitHub, Docker, Linux, Vercel, Sentry</p>
-          <p><span class="font-bold">AI &amp; Workflows:</span> LLM APIs, RAG, MCP, Prompt Engineering, Claude Code, Cursor, GitHub Copilot</p>
+          <p>
+            <span class="font-bold">Backend &amp; Database:</span> Node.js, Express.js, Laravel, MySQL, MongoDB,
+            Firebase
+          </p>
+          <p>
+            <span class="font-bold">Testing, DevOps &amp; Tools:</span> Jest, React Testing Library, Playwright, Git,
+            GitHub, Docker, Linux, Vercel, Sentry
+          </p>
+          <p>
+            <span class="font-bold">AI &amp; Workflows:</span> LLM APIs, RAG, MCP, Prompt Engineering, Claude Code,
+            Cursor, GitHub Copilot
+          </p>
         </div>
       </section>
 
       <!-- Professional Experience -->
       <section class="mb-3 print:mb-2">
-        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
+        <h2
+          class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider"
+        >
           PROFESSIONAL EXPERIENCE
         </h2>
 
         <!-- Riseup Labs -->
         <div class="mb-2.5 print:mb-2 break-inside-avoid">
           <div class="flex flex-wrap items-baseline justify-between gap-2 mb-0.5">
-            <h3 class="text-[13.2px] print:text-[11.6px] font-bold text-black">
-              Software Engineer | Riseup Labs
-            </h3>
-            <span class="text-[12.2px] print:text-[11px] italic text-black">October 2022 &ndash; Present | Dhaka, Bangladesh</span>
+            <h3 class="text-[13.2px] print:text-[11.6px] font-bold text-black">Software Engineer | Riseup Labs</h3>
+            <span class="text-[12.2px] print:text-[11px] italic text-black"
+              >October 2022 &ndash; Present | Dhaka, Bangladesh</span
+            >
           </div>
-          <ul class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black">
+          <ul
+            class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black"
+          >
             <li>
-              <strong>Frontend Architecture &amp; Component Systems:</strong> Architected and maintained multi-tenant enterprise ERP and admin web applications using <strong>React.js, Next.js (App Router, Server Actions), and TypeScript</strong>, building <strong>30+ reusable UI components</strong> with <strong>Tailwind CSS and shadcn/ui</strong> that standardized design and accelerated feature delivery.
+              <strong>Frontend Architecture &amp; Component Systems:</strong> Architected and maintained multi-tenant
+              enterprise ERP and admin web applications using
+              <strong>React.js, Next.js (App Router, Server Actions), and TypeScript</strong>, building
+              <strong>30+ reusable UI components</strong> with <strong>Tailwind CSS and shadcn/ui</strong> that
+              standardized design and accelerated feature delivery.
             </li>
             <li>
-              <strong>Typed State &amp; Data Layer:</strong> Engineered end-to-end REST API integration and caching workflows using <strong>TanStack Query, Redux Toolkit (RTK Query), Axios, React Hook Form, and Zod</strong>, cutting redundant network requests and eliminating runtime schema mismatches.
+              <strong>Typed State &amp; Data Layer:</strong> Engineered end-to-end REST API integration and caching
+              workflows using
+              <strong>TanStack Query, Redux Toolkit (RTK Query), Axios, React Hook Form, and Zod</strong>, cutting
+              redundant network requests and eliminating runtime schema mismatches.
             </li>
             <li>
-              <strong>Performance Optimization:</strong> Improved initial page load speed and <strong>Core Web Vitals by ~35%</strong> on data-heavy ERP dashboards via route-level code splitting, memoized rendering, virtualized tables, and server-side data fetching.
+              <strong>Performance Optimization:</strong> Improved initial page load speed and
+              <strong>Core Web Vitals by ~35%</strong> on data-heavy ERP dashboards via route-level code splitting,
+              memoized rendering, virtualized tables, and server-side data fetching.
             </li>
             <li>
-              <strong>AI &amp; Full-Stack Collaboration:</strong> Integrated AI-assisted ERP workflows (<strong>LLM APIs, RAG</strong>) and contributed to backend services and API endpoints using <strong>Node.js, Express.js, and Laravel</strong>.
+              <strong>AI &amp; Full-Stack Collaboration:</strong> Integrated AI-assisted ERP workflows (<strong
+                >LLM APIs, RAG</strong
+              >) and contributed to backend services and API endpoints using
+              <strong>Node.js, Express.js, and Laravel</strong>.
             </li>
             <li>
-              <strong>Quality Assurance &amp; Engineering Leadership:</strong> Strengthened release reliability with automated testing (<strong>Jest, React Testing Library, Playwright</strong>) and error monitoring (<strong>Sentry</strong>), while driving requirement analysis, code reviews, and sprint planning with cross-functional teams.
+              <strong>Quality Assurance &amp; Engineering Leadership:</strong> Strengthened release reliability with
+              automated testing (<strong>Jest, React Testing Library, Playwright</strong>) and error monitoring
+              (<strong>Sentry</strong>), while driving requirement analysis, code reviews, and sprint planning with
+              cross-functional teams.
             </li>
           </ul>
         </div>
@@ -201,17 +262,25 @@
                 class="font-normal text-[12px] print:text-[10.8px] text-resume-link underline ml-1"
               >(amarlab.com)</a> -->
             </h3>
-            <span class="text-[12.2px] print:text-[11px] italic text-black">May 2021 &ndash; August 2022 | Dhaka, Bangladesh</span>
+            <span class="text-[12.2px] print:text-[11px] italic text-black"
+              >May 2021 &ndash; August 2022 | Dhaka, Bangladesh</span
+            >
           </div>
-          <ul class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black">
+          <ul
+            class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black"
+          >
             <li>
-              Developed customer-facing healthcare e-commerce features using <strong>React.js</strong>, enabling thousands of patients to search diagnostic lab tests, compare packages, and book home sample collections online.
+              Developed customer-facing healthcare e-commerce features using <strong>React.js</strong>, enabling
+              thousands of patients to search diagnostic lab tests, compare packages, and book home sample collections
+              online.
             </li>
             <li>
-              Built internal operations and administrative dashboard interfaces to manage lab test orders, partner diagnostics, dispatch workflows, and real-time reporting.
+              Built internal operations and administrative dashboard interfaces to manage lab test orders, partner
+              diagnostics, dispatch workflows, and real-time reporting.
             </li>
             <li>
-              Delivered cross-platform mobile application features in <strong>React Native</strong> and integrated RESTful APIs powered by <strong>Django</strong>.
+              Delivered cross-platform mobile application features in <strong>React Native</strong> and integrated
+              RESTful APIs powered by <strong>Django</strong>.
             </li>
           </ul>
         </div>
@@ -219,14 +288,17 @@
         <!-- OnCallMedico -->
         <div class="break-inside-avoid">
           <div class="flex flex-wrap items-baseline justify-between gap-2 mb-0.5">
-            <h3 class="text-[13.2px] print:text-[11.6px] font-bold text-black">
-              Frontend Engineer | OnCallMedico
-            </h3>
-            <span class="text-[12.2px] print:text-[11px] italic text-black">October 2020 &ndash; April 2021 | Dhaka, Bangladesh</span>
+            <h3 class="text-[13.2px] print:text-[11.6px] font-bold text-black">Frontend Engineer | OnCallMedico</h3>
+            <span class="text-[12.2px] print:text-[11px] italic text-black"
+              >October 2020 &ndash; April 2021 | Dhaka, Bangladesh</span
+            >
           </div>
-          <ul class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black">
+          <ul
+            class="list-disc pl-4.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] space-y-0.5 text-black"
+          >
             <li>
-              Built an interactive digital prescription web application using <strong>React.js</strong> and implemented responsive personal-branding web templates for doctors using <strong>HTML5, CSS3, and Django</strong>.
+              Built an interactive digital prescription web application using <strong>React.js</strong> and implemented
+              responsive personal-branding web templates for doctors using <strong>HTML5, CSS3, and Django</strong>.
             </li>
           </ul>
         </div>
@@ -234,22 +306,29 @@
 
       <!-- Key Projects -->
       <section class="mb-3 print:mb-2">
-        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
+        <h2
+          class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider"
+        >
           KEY PROJECTS
         </h2>
 
-        <div class="space-y-2 print:space-y-1.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] text-black">
+        <div
+          class="space-y-2 print:space-y-1.5 text-[12.6px] print:text-[11.1px] leading-[1.4] print:leading-[1.32] text-black"
+        >
           <!-- AI-Integrated ERP Platform -->
           <div class="break-inside-avoid">
             <div class="flex flex-wrap items-baseline justify-between gap-2">
               <h3 class="font-bold text-black">
                 AI-Integrated Enterprise ERP Platform &mdash; AB Global
-                <span class="font-normal text-slate-700 print:text-black">| Next.js, TypeScript, TanStack Query, Tailwind CSS, LLM APIs</span>
+                <span class="font-normal text-slate-700 print:text-black"
+                  >| Next.js, TypeScript, TanStack Query, Tailwind CSS, LLM APIs</span
+                >
               </h3>
             </div>
             <ul class="list-disc pl-4.5 space-y-0.5 mt-0.5">
               <li>
-                Engineered core ERP workflow modules, role-based access views, and reusable data-grid/form components with strict <strong>Zod + React Hook Form</strong> validation and AI-assisted querying.
+                Engineered core ERP workflow modules, role-based access views, and reusable data-grid/form components
+                with strict <strong>Zod + React Hook Form</strong> validation and AI-assisted querying.
               </li>
             </ul>
           </div>
@@ -259,18 +338,22 @@
             <div class="flex flex-wrap items-baseline justify-between gap-2">
               <h3 class="font-bold text-black">
                 eCook Administrative &amp; IoT Operations Portal &mdash; ATEC Global
-                <span class="font-normal text-slate-700 print:text-black">| React, Next.js, TypeScript, Redux Toolkit</span>
+                <span class="font-normal text-slate-700 print:text-black"
+                  >| React, Next.js, TypeScript, Redux Toolkit</span
+                >
               </h3>
               <a
                 href="https://www.atecglobal.io/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-[12px] print:text-[10.8px] text-resume-link underline"
-              >atecglobal.io</a>
+                >atecglobal.io</a
+              >
             </div>
             <ul class="list-disc pl-4.5 space-y-0.5 mt-0.5">
               <li>
-                Built data-driven administrative dashboards, analytics views, and IoT device/customer management workflows for a global clean-cooking platform across large datasets.
+                Built data-driven administrative dashboards, analytics views, and IoT device/customer management
+                workflows for a global clean-cooking platform across large datasets.
               </li>
             </ul>
           </div>
@@ -280,18 +363,22 @@
             <div class="flex flex-wrap items-baseline justify-between gap-2">
               <h3 class="font-bold text-black">
                 Oxford Forex &mdash; Currency Exchange Platform
-                <span class="font-normal text-slate-700 print:text-black">| React.js, TypeScript, REST APIs, Tailwind CSS</span>
+                <span class="font-normal text-slate-700 print:text-black"
+                  >| React.js, TypeScript, REST APIs, Tailwind CSS</span
+                >
               </h3>
               <a
                 href="https://oxfordforex.com.au/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-[12px] print:text-[10.8px] text-resume-link underline"
-              >oxfordforex.com.au</a>
+                >oxfordforex.com.au</a
+              >
             </div>
             <ul class="list-disc pl-4.5 space-y-0.5 mt-0.5">
               <li>
-                Developed interactive currency conversion calculators, live exchange rate views, and customer booking flows for an Australian foreign exchange platform.
+                Developed interactive currency conversion calculators, live exchange rate views, and customer booking
+                flows for an Australian foreign exchange platform.
               </li>
             </ul>
           </div>
@@ -300,12 +387,16 @@
 
       <!-- Education -->
       <section class="break-inside-avoid">
-        <h2 class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider">
+        <h2
+          class="text-[13px] print:text-[11.5px] font-bold uppercase text-resume-section border-b border-black pb-0.5 mb-1.5 print:mb-1 tracking-wider"
+        >
           EDUCATION
         </h2>
         <div class="text-[12.6px] print:text-[11.1px] leading-[1.42] print:leading-[1.34] text-black">
           <div class="flex flex-wrap justify-between gap-2">
-            <p><span class="font-bold">BSc in Computer Science and Engineering</span> | North Western University, Khulna</p>
+            <p>
+              <span class="font-bold">BSc in Computer Science and Engineering</span> | North Western University, Khulna
+            </p>
             <span class="italic">2015 &ndash; 2019</span>
           </div>
         </div>
@@ -314,9 +405,9 @@
 
     <script>
       async function copyResumeLink() {
-        const btnText = document.getElementById("shareBtnText");
+        const btnText = document.getElementById('shareBtnText');
         try {
-          if (navigator.share && window.location.protocol.startsWith("http")) {
+          if (navigator.share && window.location.protocol.startsWith('http')) {
             await navigator.share({
               title: document.title,
               url: window.location.href,
@@ -324,14 +415,14 @@
             return;
           }
           await navigator.clipboard.writeText(window.location.href);
-          btnText.textContent = "Link Copied!";
+          btnText.textContent = 'Link Copied!';
           setTimeout(() => {
-            btnText.textContent = "Copy Share Link";
+            btnText.textContent = 'Copy Link';
           }, 2000);
         } catch (err) {
-          btnText.textContent = "Copy URL from bar";
+          btnText.textContent = 'Copy URL from bar';
           setTimeout(() => {
-            btnText.textContent = "Copy Share Link";
+            btnText.textContent = 'Copy Link';
           }, 2000);
         }
       }
