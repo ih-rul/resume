@@ -12,6 +12,7 @@ Online, shareable, and print-ready **1-Page A4** resumes built with **HTML5** an
 | **Full-Stack Engineer** | [ih-rul.github.io/resume/full-stack](https://ih-rul.github.io/resume/full-stack) | [Injamamul_Haque_FullStack_Resume.pdf](./Injamamul_Haque_FullStack_Resume.pdf) | [`full-stack/index.html`](./full-stack/index.html) |
 | **Software Engineer** | [ih-rul.github.io/resume/software-engineer](https://ih-rul.github.io/resume/software-engineer) | [Injamamul_Haque_Software_Engineer_Resume.pdf](./Injamamul_Haque_Software_Engineer_Resume.pdf) | [`software-engineer/index.html`](./software-engineer/index.html) |
 | **AI Software Engineer** | [ih-rul.github.io/resume/ai-engineer](https://ih-rul.github.io/resume/ai-engineer) | [Injamamul_Haque_AI_Engineer_Resume.pdf](./Injamamul_Haque_AI_Engineer_Resume.pdf) | [`ai-engineer/index.html`](./ai-engineer/index.html) |
+| **Custom (JD-Tailored)** | [ih-rul.github.io/resume/custom](https://ih-rul.github.io/resume/custom) | [Injamamul_Haque_Custom_Resume.pdf](./Injamamul_Haque_Custom_Resume.pdf) | [`custom/index.html`](./custom/index.html) |
 
 ---
 
