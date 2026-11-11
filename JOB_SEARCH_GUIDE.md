@@ -2,73 +2,68 @@
 
 এই গাইডে **LinkedIn Feed Posts (কোম্পানি বা HR-দের সাধারণ পোস্ট)**, **Google X-Ray Search**, এবং **International Remote Job** খুঁজে বের করার সমস্ত স্টেপ ও রেডি-টু-কপি সার্চ কুয়েরি দেওয়া আছে।
 
+> **⚠️ গুরুত্বপূর্ণ নোট:** LinkedIn-এর `Posts` ট্যাবে ব্র্যাকেট `(...)` বা কোটেশন `"..."` দিলে LinkedIn প্রায়ই **"No results found"** দেখায়। তাই **LinkedIn-এর ভেতরে সবসময় নিচের সাধারণ ৩–৪ শব্দের কুয়েরিগুলো** ব্যবহার করবেন, আর ব্র্যাকেটওয়ালা Boolean কুয়েরিগুলো **Google Search**-এ ব্যবহার করবেন।
+
 ---
 
 ## ১. LinkedIn Feed Posts (কোম্পানির পেজ বা HR-দের সাধারণ জব পোস্ট) খোঁজার নিয়ম
 
-অনেক কোম্পানি পেইড `Jobs` সেকশনে জব পোস্ট না করে সরাসরি তাদের **Company Page** বা **HR/CTO-এর ওয়ালে** পোস্ট করে। এগুলো খুঁজে পেতে নিচের স্টেপগুলো ফলো করুন:
-
 ### ✅ Steps:
-1. নিচের যেকোনো একটি **Boolean Search Query** কপি করে LinkedIn-এর সার্চ বারে পেস্ট করে `Enter` চাপুন।
-2. সার্চ রেজাল্ট আসার পর উপরের ট্যাব থেকে **`Posts`** সিলেক্ট করুন (`Jobs` না)।
+1. নিচের যেকোনো একটি **Simple Search Text** কপি করে LinkedIn-এর সার্চ বারে পেস্ট করে `Enter` চাপুন (অথবা পাশের **One-Click Link**-এ ক্লিক করুন)।
+2. সার্চ রেজাল্ট আসার পর উপরের ট্যাব থেকে **`Posts`** সিলেক্ট করুন।
 3. **`Sort by` -> `Latest`** সিলেক্ট করুন।
-4. **`Date posted` -> `Past 24 hours`** বা **`Past week`** সিলেক্ট করুন।
+4. চাইলে **`Date posted` -> `Past 24 hours`** বা **`Past week`** সিলেক্ট করুন।
 
 ---
 
-### 🇧🇩 A. Local (Bangladesh) Feed Job Queries
+### 🇧🇩 A. Local (Bangladesh) — LinkedIn Search Bar Queries (No Brackets!)
 
-#### ১. React / Next.js / Frontend Engineer (Bangladesh)
-```text
-("hiring" OR "we are hiring" OR "vacancy" OR "job opening") AND ("React" OR "Next.js" OR "Frontend" OR "Front-End") AND ("Dhaka" OR "Bangladesh" OR "Send your CV" OR "Apply")
-```
-
-#### ২. Full-Stack / Software Engineer (Bangladesh)
-```text
-("hiring" OR "urgent hiring" OR "looking for" OR "vacancy") AND ("Full Stack" OR "Full-Stack" OR "Software Engineer" OR "Node.js") AND ("Dhaka" OR "Bangladesh" OR "Uttara" OR "Banani" OR "Gulshan" OR "Mohakhali")
-```
-
-#### ৩. AI / LLM / Modern Web Engineer (Bangladesh)
-```text
-("hiring" OR "vacancy" OR "looking for") AND ("AI Engineer" OR "LLM" OR "Python" OR "Next.js") AND ("Dhaka" OR "Bangladesh")
-```
+| কী খুঁজছেন | LinkedIn Search Bar-এ যা লিখবেন | One-Click Direct Link (Posts + Latest) |
+| :--- | :--- | :--- |
+| **1. React (Dhaka)** | `hiring React Dhaka` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20React%20Dhaka&sortBy=%22date_posted%22) |
+| **2. Next.js (Dhaka)** | `hiring Next.js Dhaka` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20Next.js%20Dhaka&sortBy=%22date_posted%22) |
+| **3. Frontend (Dhaka)** | `hiring Frontend Developer Dhaka` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20Frontend%20Developer%20Dhaka&sortBy=%22date_posted%22) |
+| **4. Software Engineer (Dhaka)** | `hiring Software Engineer Dhaka` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20Software%20Engineer%20Dhaka&sortBy=%22date_posted%22) |
+| **5. Full Stack (Dhaka)** | `hiring Full Stack Developer Dhaka` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20Full%20Stack%20Developer%20Dhaka&sortBy=%22date_posted%22) |
+| **6. Bangladesh (General React)** | `hiring React Bangladesh` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20React%20Bangladesh&sortBy=%22date_posted%22) |
 
 ---
 
-### 🌍 B. International Remote Feed Job Queries (Startup Founders & Tech Leads)
+### 🌍 B. International Remote — LinkedIn Search Bar Queries (No Brackets!)
 
-বিদেশি স্টার্টআপের Founder, CTO বা Recruiter-রা যখন ফিডে সরাসরি রিমোট ডেভেলপার খোঁজে:
-
-#### ১. International Remote — React / Next.js / TypeScript
-```text
-("hiring" OR "looking for") AND ("React" OR "Next.js" OR "TypeScript" OR "Frontend Engineer") AND ("remote" OR "work from anywhere" OR "worldwide" OR "global remote") AND ("DM" OR "email" OR "send your resume" OR "apply")
-```
-
-#### ২. International Remote — Full-Stack (React + Node.js / Python)
-```text
-("hiring" OR "looking for") AND ("Full Stack" OR "Full-Stack" OR "React" OR "Node.js") AND ("remote" OR "worldwide" OR "APAC" OR "contract") AND ("DM" OR "email" OR "resume")
-```
+| কী খুঁজছেন | LinkedIn Search Bar-এ যা লিখবেন | One-Click Direct Link (Posts + Latest) |
+| :--- | :--- | :--- |
+| **1. Remote React Engineer** | `hiring remote React Developer` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20remote%20React%20Developer&sortBy=%22date_posted%22) |
+| **2. Remote Next.js / TypeScript** | `hiring remote Next.js TypeScript` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20remote%20Next.js%20TypeScript&sortBy=%22date_posted%22) |
+| **3. Remote Frontend Engineer** | `hiring remote Frontend Engineer` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20remote%20Frontend%20Engineer&sortBy=%22date_posted%22) |
+| **4. Remote Full Stack Engineer** | `hiring remote Full Stack React Node` | [Open in LinkedIn ↗](https://www.linkedin.com/search/results/content/?keywords=hiring%20remote%20Full%20Stack%20React%20Node&sortBy=%22date_posted%22) |
 
 ---
 
-## ২. Google X-Ray Search (LinkedIn-এর সব পোস্ট ও জব এক ক্লিকে খোঁজা)
+## ২. Google X-Ray Search (সবচেয়ে পাওয়ারফুল — ব্র্যাকেট ও OR এখানে ১০০% কাজ করে)
 
-LinkedIn-এর নিজস্ব সার্চে অনেক সময় ২য়/৩য় ডিগ্রি কানেকশনের বাইরে থাকা কোম্পানির পোস্ট আসে না। সরাসরি **Google.com**-এ নিচের কুয়েরিগুলো পেস্ট করে সার্চ দিন এবং Google-এর **`Tools` -> `Any time` -> `Past 24 hours` বা `Past week`** সিলেক্ট করুন:
+LinkedIn-এর নিজস্ব সার্চের চেয়ে **Google Search** দিয়ে LinkedIn-এর পোস্ট খোঁজা অনেক বেশি নিখুঁত। নিচের লিংকগুলোতে ক্লিক করলে সরাসরি **গত ৭ দিনের (`Past week`)** নতুন LinkedIn জব পোস্টগুলো Google-এ চলে আসবে:
 
-### 🇧🇩 Bangladesh LinkedIn Posts (via Google)
-```text
-site:linkedin.com/posts ("hiring" OR "vacancy" OR "send your CV") ("React" OR "Next.js" OR "Software Engineer" OR "Frontend") ("Dhaka" OR "Bangladesh")
-```
+### 🇧🇩 A. Bangladesh LinkedIn Feed Posts (via Google)
+- 👉 **[Click Here: Google Search — Bangladesh React / Next.js / Frontend Posts (Past Week) ↗](https://www.google.com/search?q=site:linkedin.com/posts+(%22hiring%22+OR+%22vacancy%22)+(%22React%22+OR+%22Next.js%22+OR+%22Frontend%22)+(%22Dhaka%22+OR+%22Bangladesh%22)&tbs=qdr:w)**
+- কপি করে Google.com-এ দেওয়ার টেক্সট:
+  ```text
+  site:linkedin.com/posts ("hiring" OR "vacancy") ("React" OR "Next.js" OR "Frontend" OR "Software Engineer") ("Dhaka" OR "Bangladesh")
+  ```
 
-### 🌍 International Remote LinkedIn Posts (via Google)
-```text
-site:linkedin.com/posts ("hiring" OR "looking for") ("React" OR "Next.js" OR "TypeScript") ("remote" OR "worldwide" OR "APAC" OR "work from anywhere")
-```
+### 🌍 B. International Remote LinkedIn Feed Posts (via Google)
+- 👉 **[Click Here: Google Search — International Remote React / Next.js Posts (Past Week) ↗](https://www.google.com/search?q=site:linkedin.com/posts+(%22hiring%22+OR+%22looking+for%22)+(%22React%22+OR+%22Next.js%22+OR+%22TypeScript%22)+(%22remote%22+OR+%22worldwide%22+OR+%22APAC%22)&tbs=qdr:w)**
+- কপি করে Google.com-এ দেওয়ার টেক্সট:
+  ```text
+  site:linkedin.com/posts ("hiring" OR "looking for") ("React" OR "Next.js" OR "TypeScript") ("remote" OR "worldwide" OR "APAC")
+  ```
 
-### 🌍 ATS Job Boards Direct Search (Greenhouse, Lever, Ashby — যেখানে বিদেশি স্টার্টআপ জব পোস্ট করে)
-```text
-(site:boards.greenhouse.io OR site:jobs.lever.co OR site:jobs.ashbyhq.com) ("React" OR "Next.js" OR "Frontend" OR "Full Stack") ("Remote" OR "Anywhere" OR "APAC")
-```
+### 🌍 C. Foreign Startup ATS Boards (Greenhouse, Lever, Ashby — Past Week)
+- 👉 **[Click Here: Google Search — Global Remote React/Next.js Startup Jobs (Past Week) ↗](https://www.google.com/search?q=(site:boards.greenhouse.io+OR+site:jobs.lever.co+OR+site:jobs.ashbyhq.com)+(%22React%22+OR+%22Next.js%22+OR+%22Frontend%22)+(%22Remote%22+OR+%22Anywhere%22)&tbs=qdr:w)**
+- কপি করে Google.com-এ দেওয়ার টেক্সট:
+  ```text
+  (site:boards.greenhouse.io OR site:jobs.lever.co OR site:jobs.ashbyhq.com) ("React" OR "Next.js" OR "Frontend" OR "Full Stack") ("Remote" OR "Anywhere" OR "APAC")
+  ```
 
 ---
 
@@ -76,10 +71,7 @@ site:linkedin.com/posts ("hiring" OR "looking for") ("React" OR "Next.js" OR "Ty
 
 LinkedIn `Jobs` ট্যাবে লোকেশন `Bangladesh` দিলে শুধু লোকাল রিমোট জব আসে। বিদেশি রিমোট জব পেতে:
 
-1. **Search Box-এ লিখুন:**
-   ```text
-   ("React" OR "Next.js" OR "TypeScript") NOT ("Senior Staff" OR "Principal" OR "US Citizen")
-   ```
+1. **Job Search Box-এ লিখুন:** `React` অথবা `Next.js` অথবা `Frontend Engineer`
 2. **Location Box-এ পর্যায়ক্রমে নিচের লোকেশনগুলো দিয়ে সার্চ করুন:**
    - `Worldwide`
    - `APAC` *(Asia-Pacific টাইমজোনের রিমোট জব—বাংলাদেশ থেকে সবচেয়ে বেশি হায়ার করে)*
@@ -88,13 +80,10 @@ LinkedIn `Jobs` ট্যাবে লোকেশন `Bangladesh` দিলে 
 3. **Filters চালু করুন:**
    - **Remote:** `Remote`
    - **Date Posted:** `Past 24 hours` *(সবচেয়ে গুরুত্বপূর্ণ—প্রথম ২৪ ঘণ্টায় অ্যাপ্লাই করলে শর্টলিস্ট হওয়ার সম্ভাবনা সবচেয়ে বেশি)*
-   - **Under 10 applicants** *(অপশনাল—কম প্রতিযোগিতার জব পাওয়ার জন্য)*
 
 ---
 
 ## ৪. বাংলাদেশি ইঞ্জিনিয়ারদের জন্য সেরা International Remote Job Portals
-
-LinkedIn ছাড়াও নিচের সাইটগুলোতে সরাসরি প্রোফাইল খুলে অ্যাপ্লাই করলে বিদেশি স্টার্টআপ থেকে দ্রুত রেসপন্স পাওয়া যায়:
 
 | প্ল্যাটফর্ম | লিংক | কীভাবে ব্যবহার করবেন |
 | :--- | :--- | :--- |
@@ -140,11 +129,3 @@ Dhaka, Bangladesh
 Phone: +880 1685-970744
 Email: injam.cse@gmail.com
 ```
-
----
-
-## ⏱️ Daily 15-Minute Job Hunting Routine
-1. **সকাল ১১টা / রাত ৯টা:** LinkedIn-এ **Local Query 1 & 2** এবং **International Query 1** দিয়ে `Posts` -> `Latest` চেক করুন (৫ মিনিট)।
-2. **Google X-Ray:** `Past 24 hours` ফিল্টার দিয়ে নতুন কোনো পোস্ট এসেছে কি না দেখুন (৩ মিনিট)।
-3. **Apply + DM:** যে পোস্টগুলো ম্যাচ করে, সাথে সাথে সঠিক Resume PDF (`Frontend`, `Full-Stack`, `Software Engineer`, `AI Engineer`, অথবা `Custom`) ইমেইল করুন এবং পোস্টদাতাকে LinkedIn-এ ছোট একটি মেসেজ দিন (৭ মিনিট)।
-
